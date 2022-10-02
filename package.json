@@ -1,0 +1,21 @@
+{
+  "name": "playwright_with_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazmul1932/playwright_with_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazmul1932/playwright_with_typescript/issues"
+  },
+  "homepage": "https://github.com/Nazmul1932/playwright_with_typescript#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.26.1"
+  }
+}
