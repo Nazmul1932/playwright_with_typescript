@@ -10,7 +10,15 @@ describe("how to handle input fields", ()=>{
     beforeAll(async () =>{
 
         browser = await chromium.launch({headless: false})
-        context = await browser.newContext()
+        context = await browser.newContext({
+            recordVideo: {
+                dir: "./videos/diff-types-inputs/",
+                size: {
+                    width: 800,
+                    height: 600
+                }
+            }
+        })
         page = await context.newPage()
         await page.goto("https://letcode.in/edit")
 
