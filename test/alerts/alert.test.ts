@@ -70,11 +70,11 @@ describe('All type of alert testing', () => {
 
 
 
-    // afterAll(async () => {
-    //     await page.close()
-    //     await context.close()
-    //     await browser.close()
-    // });
+    afterAll(async () => {
+        await page.close()
+        await context.close()
+        await browser.close()
+    });
 
 
 })
